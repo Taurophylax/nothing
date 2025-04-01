@@ -1,2 +1,0 @@
-def something() -> None:
-    pass
