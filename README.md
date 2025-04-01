@@ -15,4 +15,4 @@ To be updated regularly
 - [ ] NoSQL Database (for storing nothing)
 - [ ] Compiled deliverable using RUST (for performance)
 - [ ] Shiny App plugin (for visualization)
-- [ ] Web Server API/UI for UX and networking
+- [ ] Web Server API/UI (for UX and networking)
