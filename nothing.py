@@ -1,5 +1,7 @@
 # nothing v0.0
 from things.things import something as something # import things from things as soemthing
+from things.things import nothings as nothings # import nothings from things as nothings
+from things.things import noTHING as noTHING # import noTHINGS from things as noTHINGS
 
 pass # passes
 
@@ -17,6 +19,10 @@ def __break__():
 while True:
     if __break__():
         thing = nothing_fun(True)  # call nothing to thing
+        nothings(thing)
+        if thing:
+            noTHING(thing)
+            __break__()
         break
 
 pass # passes
@@ -40,7 +46,11 @@ class nothing_class:
         while thing:
             if thing:
                 thing = self.do_nothing()  # recursive nothing
+                nothings(thing)
                 something()
+                if thing:
+                    noTHING(thing)
+                    __break__()
                 break
             else:
                 pass
