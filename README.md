@@ -13,6 +13,7 @@ To be updated regularly
 - [ ] Large plugin library (10+ native plugins)
 - [ ] Containerization (details TBD)
 - [ ] NoSQL Database (for storing nothing)
-- [ ] Compiled deliverable using RUST (for performance)
+- [ ] Compiled deliverable using Rust (for performance)
 - [ ] Shiny App plugin (for visualization)
 - [ ] Web Server API/UI (for UX and networking)
+- [ ] Publication
