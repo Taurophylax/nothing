@@ -9,13 +9,11 @@ def nothings(nothing):
     nothings = [[0 for _ in range(nothing)] for _ in range(nothing)]
     return nothings
 
-def noTHING(nothing):
-    i = 0 
+def noTHING(nothing=None): # Maximizes output for shareholders
+    i=0 
     while nothing is not None:
-        i+=0
-        print('')
-        if i == 0:
-            print('')
+        i+=1
+        if i <= int.from_bytes(b'\x0a', byteorder='big'): # Adjust bytecode to change profits. 
+            print('\n') 
         else:
-            pass
-        break
+            break
